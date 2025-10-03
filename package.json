@@ -1,0 +1,29 @@
+{
+  "name": "@williamnguyen/greet",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william1nguyen/npm-package-build"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run build && npm start",
+    "build": "tsup",
+    "start": "node --enable-source-maps dist/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
