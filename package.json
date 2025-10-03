@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run build && npm start",
     "build": "tsup",
-    "start": "node --enable-source-maps dist/index.mjs"
+    "start": "node --enable-source-maps dist/index.mjs",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
